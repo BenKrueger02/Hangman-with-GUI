@@ -1,4 +1,3 @@
-
 from tkinter import *
 master = Tk()
 w = Canvas(master, width=600, height=600,)
@@ -54,19 +53,6 @@ hard.place(x=370, y=300)
 instructions = Button(master, text="Instructions", font = ('Chelsea Market', 20, 'bold'), command=callinstructions)
 instructions.pack()
 instructions.place(x=230, y=500)
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -622,6 +608,3 @@ print_letters_and_positions(len(chosen_word), letters, max_attempts)
 
 # execute initial round
 step(0, chosen_word, letters, max_attempts)
-
-
-
